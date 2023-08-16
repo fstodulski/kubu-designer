@@ -4,7 +4,6 @@
   export let data: PortfolioItem;
 
   const aspect = `${data.image.aspectRatio}`;
-  console.log(aspect);
 </script>
 
 <div class=" flex w-full flex-col gap-2">

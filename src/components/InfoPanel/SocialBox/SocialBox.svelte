@@ -6,7 +6,7 @@
   export let link: string;
 </script>
 
-<a href={link} referrerpolicy="no-referrer" target="_blank">
+<a href={link} referrerpolicy="no-referrer" aria-label={link} target="_blank">
   <figure
     class="bg-slate-(lighten)-slate-900 hover:text-slate-slate-50 border-slate-(lighten)-slate-900 text-default flex h-12 w-12 items-center justify-center rounded-lg border p-2"
   >
