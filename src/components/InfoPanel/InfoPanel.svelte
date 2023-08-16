@@ -2,14 +2,7 @@
   import { Behance, Dribbble, LinkedinBox } from '@steeze-ui/remix-icons';
 
   import SocialBox from './SocialBox/SocialBox.svelte';
-
-  let windowHeight: number;
-  let sidebarHeight: number = 0;
-
-  $: sidebarHeight = windowHeight - 32;
 </script>
-
-<svelte:window bind:innerHeight={windowHeight} />
 
 <div
   class="bg-slate-(lighten)-slate-900 top-4 flex w-full flex-col gap-8 rounded-2xl p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
