@@ -5,7 +5,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     title: 'Upload video',
     type: 'Mobile UI',
     image: {
-      src: '/assets/upload_video.png',
+      src: '/assets/upload_video.webp',
       alt: 'Upload video',
       aspectRatio: '1/1'
     }
@@ -14,7 +14,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     title: 'Joystream Design System',
     type: 'Case study',
     image: {
-      src: '/assets/joy_stream_design_system.png',
+      src: '/assets/joy_stream_design_system.webp',
       alt: 'Upload video',
       aspectRatio: '16/9'
     }
@@ -23,7 +23,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     title: 'Food App',
     type: 'Mobile UI Concept',
     image: {
-      src: '/assets/food_app.png',
+      src: '/assets/food_app.webp',
       alt: 'Upload video',
       aspectRatio: '1/1'
     }
@@ -32,7 +32,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     title: 'Video platform DAO',
     type: 'Case study',
     image: {
-      src: '/assets/video_platform_dao.png',
+      src: '/assets/video_platform_dao.webp',
       alt: 'Upload video',
       aspectRatio: '4/3'
     }
