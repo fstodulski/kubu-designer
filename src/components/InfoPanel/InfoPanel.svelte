@@ -38,8 +38,8 @@
     </div>
 
     <div class="mt-auto flex flex-col gap-4">
-      <a href="" class="btn secondary">Download CV</a>
-      <a href="" class="btn primary">Contact me</a>
+      <a href="/" class="btn secondary">Download CV</a>
+      <a href="mailto:qba600@gmail.com" class="btn primary">Contact me</a>
     </div>
   </article>
 </div>
