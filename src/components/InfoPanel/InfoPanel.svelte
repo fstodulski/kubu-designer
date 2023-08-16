@@ -31,9 +31,10 @@
     </p>
 
     <div class="flex items-center gap-4">
-      <SocialBox icon={Behance}></SocialBox>
-      <SocialBox icon={Dribbble}></SocialBox>
-      <SocialBox icon={LinkedinBox}></SocialBox>
+      <SocialBox icon={Behance} link="https://www.behance.net/kubamikolajczyk"></SocialBox>
+      <SocialBox icon={Dribbble} link="https://dribbble.com/kuba_mikolajczyk"></SocialBox>
+      <SocialBox icon={LinkedinBox} link="https://www.linkedin.com/in/kuba-mikolajczyk/"
+      ></SocialBox>
     </div>
 
     <div class="mt-auto flex flex-col gap-4">

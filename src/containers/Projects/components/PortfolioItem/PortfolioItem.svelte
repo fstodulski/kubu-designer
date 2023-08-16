@@ -2,11 +2,14 @@
   import type { PortfolioItem } from './portfolio-item.model';
 
   export let data: PortfolioItem;
+
+  const aspect = `${data.image.aspectRatio}`;
+  console.log(aspect);
 </script>
 
 <div class=" flex w-full flex-col gap-2">
   <figure class="w-full overflow-hidden rounded-xl">
-    <img class="w-full" src={data.image.src} alt={data.image.alt} />
+    <img class=" w-full aspect-[{aspect}]" src={data.image.src} alt={data.image.alt} />
   </figure>
 
   <div class="font-inter flex items-center justify-between">

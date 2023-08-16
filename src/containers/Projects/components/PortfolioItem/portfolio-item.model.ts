@@ -1,6 +1,7 @@
 type Image = {
   src: string;
   alt: string;
+  aspectRatio?: string;
 };
 
 export type PortfolioItem = {
