@@ -8,5 +8,10 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [svelte(), tailwind()],
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
+  vite:{
+    ssr:{
+      noExternal: ['@steeze-ui/svelte-icon']
+    }
+  }
 });
