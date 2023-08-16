@@ -24,16 +24,55 @@ const { title } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Syne:wght@600;700&display=swap"
       rel="stylesheet"
     />
-    <meta property="og:title" content="How to Become an SEO Expert (8 Steps)" />
-    <meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
-    <meta property="og:url" content="https://kubu-designer.vercel.app" />
+    <meta name="title" content="Kuba Mikołajczyk - Digital Product Designer" />
+    <meta
+      name="description"
+      content="Kuba Mikołajczyk | Creativity driven guy with a passion for Product Design. I love to work with 3D! | Connect with them on Dribbble; the global community for designers and creative professionals."
+    />
 
-    <meta property="og:image" content="https://kubu-designer.vercel.app/avatar.svg" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kubu-designer.vercel.app/" />
+    <meta property="og:title" content="Kuba Mikołajczyk - Digital Product Designer" />
+    <meta
+      property="og:description"
+      content="Kuba Mikołajczyk | Creativity driven guy with a passion for Product Design. I love to work with 3D! | Connect with them on Dribbble; the global community for designers and creative professionals."
+    />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://kubu-designer.vercel.app/" />
+    <meta property="twitter:title" content="Kuba Mikołajczyk - Digital Product Designer" />
+    <meta
+      property="twitter:description"
+      content="Kuba Mikołajczyk | Creativity driven guy with a passion for Product Design. I love to work with 3D! | Connect with them on Dribbble; the global community for designers and creative professionals."
+    />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
     <title>{title}</title>
   </head>
   <body class="px-4 pt-4 sm:px-6 sm:pt-6">
     <slot />
   </body>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Kuba",
+      "url": "https://kubu-designer.vercel.app/",
+      "image": "",
+      "sameAs": [
+        "https://www.linkedin.com/in/kuba-mikolajczyk/",
+        "https://kubu-designer.vercel.app/"
+      ],
+      "jobTitle": "Digital Product Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Netguru"
+      }
+    }
+  </script>
 </html>
 <style is:global>
   :root {
