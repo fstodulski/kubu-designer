@@ -1,10 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import InfoPanel from '../components/InfoPanel/InfoPanel.svelte';
+import Projects from '../containers/Projects/Projects.svelte';
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="flex w-full">
+  <main class="flex flex-col md:flex-row w-full gap-6">
     <InfoPanel />
+    <Projects />
   </main>
 </Layout>
