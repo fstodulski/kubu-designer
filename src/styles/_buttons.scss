@@ -1,11 +1,19 @@
 .btn {
-  @apply flex items-center justify-center rounded-md px-2 py-[14px];
+  @apply flex items-center justify-center rounded-md px-2 py-[14px] duration-300;
 
   &.primary {
     @apply bg-slate-50 text-slate-950;
+
+    &:hover {
+      @apply bg-slate-300;
+    }
   }
 
   &.secondary {
     @apply bg-slate-(lighten)-slate-900 text-slate-50;
+
+    &:hover {
+      @apply bg-slate-(lighten)-slate-800;
+    }
   }
 }
