@@ -7,13 +7,13 @@
   const colTwo = PROJECTS.slice(halfItems);
 </script>
 
-<section class="mb-4 grid grid-cols-1 gap-6 lg:hidden lg:grid-cols-2">
+<section class="mb-4 grid w-full grid-cols-1 gap-6 lg:hidden lg:grid-cols-2">
   {#each PROJECTS as project}
     <PortfolioItem data={project}></PortfolioItem>
   {/each}
 </section>
 
-<section class="mb-4 hidden grid-cols-1 gap-6 lg:grid lg:grid-cols-2">
+<section class="mb-4 hidden w-full grid-cols-1 gap-6 lg:grid lg:grid-cols-2">
   <div class="flex flex-col gap-6">
     {#each colOne as project}
       <PortfolioItem data={project}></PortfolioItem>
