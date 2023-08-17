@@ -8,7 +8,7 @@
 
 <a href={link} referrerpolicy="no-referrer" aria-label={link} target="_blank">
   <figure
-    class="bg-slate-(lighten)-slate-900 hover:text-slate-slate-50 border-slate-(lighten)-slate-900 text-default flex h-12 w-12 items-center justify-center rounded-lg border p-2"
+    class="flex h-12 w-12 items-center justify-center rounded-lg border border-slate-(lighten)-slate-900 bg-slate-(lighten)-slate-900 p-2 text-default hover:border-slate-(lighten)-slate-800 hover:text-slate-slate-50"
   >
     <Icon src={icon} theme="solid" size="24px" />
   </figure>

@@ -10,7 +10,7 @@
   }
 
   &.secondary {
-    @apply bg-slate-(lighten)-slate-900 text-slate-50;
+    @apply border border-slate-(lighten)-slate-900 bg-slate-(lighten)-slate-900 text-slate-50 hover:border-slate-(lighten)-slate-800;
 
     &:hover {
       @apply bg-slate-(lighten)-slate-800;
