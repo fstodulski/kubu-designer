@@ -5,6 +5,10 @@ type Image = {
 };
 
 export type PortfolioItem = {
+  href: {
+    ariaLabel: string;
+    url: string;
+  };
   image: Image;
   title: string;
   type: string;

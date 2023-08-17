@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="bg-slate-(lighten)-slate-900 top-4 flex w-full flex-col gap-8 rounded-2xl p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
+  class="top-4 flex w-full flex-col gap-8 rounded-2xl bg-slate-(lighten)-slate-900 p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
 >
   <div class="flex w-full items-center gap-2">
     <figure class="relative h-10 w-10 overflow-hidden">
@@ -16,25 +16,24 @@
         alt=""
       />
     </figure>
-    <h1 class="text-base-white font-syne text-sm font-bold -tracking-[2%]">Kuba Mikołajczyk</h1>
+    <h1 class="font-syne text-sm font-bold -tracking-[2%] text-base-white">Kuba Mikołajczyk</h1>
   </div>
 
   <article class="flex flex-col gap-4 md:h-full">
-    <h2 class="font-syne text-base-white text-4xl font-semibold leading-10 -tracking-[0.1%]">
+    <h2 class="font-syne text-4xl font-semibold leading-10 -tracking-[0.1%] text-base-white">
       Digital Product Designer
     </h2>
 
-    <p class="text-default font-inter text-sm leading-5">
+    <p class="font-inter text-sm leading-5 text-default">
       Product designer @ Netguru. Focused on creating user-centered and user-friendly digital
       products that people love to use. I have 3+ years of experience in creating and maintaining
       design systems & digital experiences.
     </p>
 
     <div class="flex items-center gap-4">
-      <SocialBox icon={Behance} link="https://www.behance.net/kubamikolajczyk"></SocialBox>
-      <SocialBox icon={Dribbble} link="https://dribbble.com/kuba_mikolajczyk"></SocialBox>
-      <SocialBox icon={LinkedinBox} link="https://www.linkedin.com/in/kuba-mikolajczyk/"
-      ></SocialBox>
+      <SocialBox icon={Behance} link="https://www.behance.net/kubamikolajczyk" />
+      <SocialBox icon={Dribbble} link="https://dribbble.com/kuba_mikolajczyk" />
+      <SocialBox icon={LinkedinBox} link="https://www.linkedin.com/in/kuba-mikolajczyk/" />
     </div>
 
     <div class="mt-auto flex flex-col gap-4">
