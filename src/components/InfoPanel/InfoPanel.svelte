@@ -8,15 +8,15 @@
   class="top-4 flex w-full flex-col gap-8 rounded-2xl bg-slate-(lighten)-slate-900 p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
 >
   <div class="flex w-full items-center gap-2">
-    <figure class="relative h-10 w-10 overflow-hidden">
+    <figure class="relative h-12 w-12 overflow-hidden">
       <img class="absolute top-0 z-0 h-full w-full" src="/avatar_alpha.svg" alt="" />
       <img
-        class="absolute left-1/2 top-1/2 z-10 h-[35.556px] w-[35.556px] -translate-x-1/2 -translate-y-1/2"
+        class="absolute left-1/2 top-1/2 z-10 h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2"
         src="/avatar.svg"
         alt=""
       />
     </figure>
-    <h1 class="font-syne text-sm font-bold -tracking-[2%] text-base-white">Kuba Mikołajczyk</h1>
+    <h1 class="font-syne font-bold -tracking-[2%] text-base-white">Kuba Mikołajczyk</h1>
   </div>
 
   <article class="flex flex-col gap-4 md:h-full">
@@ -24,7 +24,7 @@
       Digital Product Designer
     </h2>
 
-    <p class="font-inter text-sm leading-5 text-default">
+    <p class="font-inter text-base font-light text-default">
       Product designer @ Netguru. Focused on creating user-centered and user-friendly digital
       products that people love to use. I have 3+ years of experience in creating and maintaining
       design systems & digital experiences.

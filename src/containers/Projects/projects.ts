@@ -1,4 +1,5 @@
 import type { PortfolioItem } from './components/PortfolioItem/portfolio-item.model';
+import { AspectRatio } from './components/PortfolioItem/portfolio-item.model';
 
 export const PROJECTS: Array<PortfolioItem> = [
   {
@@ -11,7 +12,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/upload_video.webp',
       alt: 'Upload video',
-      aspectRatio: '1/1'
+      aspectRatio: AspectRatio['aspect-ratio-1/1']
     }
   },
   {
@@ -24,7 +25,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/joy_stream_design_system.webp',
       alt: 'Upload video',
-      aspectRatio: '16/9'
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
     }
   },
   {
@@ -37,7 +38,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/food_app.webp',
       alt: 'Upload video',
-      aspectRatio: '1/1'
+      aspectRatio: AspectRatio['aspect-ratio-3/4']
     }
   },
   {
@@ -50,7 +51,7 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/video_platform_dao.webp',
       alt: 'Upload video',
-      aspectRatio: '4/3'
+      aspectRatio: AspectRatio['aspect-ratio-4/3']
     }
   }
 ];
