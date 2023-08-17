@@ -37,7 +37,12 @@
     </div>
 
     <div class="mt-auto flex flex-col gap-4">
-      <a href="/" class="btn secondary">Download CV</a>
+      <a
+        href="/assets/cv/kuba_mikolajczyk.pdf"
+        target="_blank"
+        referrerpolicy="no-referrer"
+        class="btn secondary">Download CV</a
+      >
       <a href="mailto:qba600@gmail.com" class="btn primary">Contact me</a>
     </div>
   </article>
