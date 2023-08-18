@@ -25,8 +25,10 @@ export const PROJECTS: Array<PortfolioItem> = [
       url: 'https://www.behance.net/gallery/137431151/Joystream-Video-Platform-DAO'
     },
     image: {
-      src: '/assets/video_platform_dao.png',
+      src: '/assets/video_platform_dao.webp',
       alt: 'Video platform DAO case study',
+      width: 1600,
+      height: 1200,
       aspectRatio: AspectRatio['aspect-ratio-4/3']
     }
   },
@@ -40,6 +42,8 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/food_app.webp',
       alt: 'Food app concept mobile UI dribbble shot',
+      width: 1600,
+      height: 1200,
       aspectRatio: AspectRatio['aspect-ratio-3/4']
     }
   },
@@ -53,6 +57,8 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/atlas_ds.webp',
       alt: 'Joystream Design System case study',
+      width: 1400,
+      height: 2240,
       aspectRatio: AspectRatio['aspect-ratio-16/9']
     }
   }
