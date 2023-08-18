@@ -9,10 +9,10 @@
 >
   <div class="flex w-full items-center gap-2">
     <figure class="relative h-12 w-12 overflow-hidden">
-      <img class="absolute top-0 z-0 h-full w-full rounded-full" src="/avatar_alpha.png" alt="" />
+      <img class="absolute top-0 z-0 h-full w-full rounded-full" src="/avatar_alpha.webp" alt="" />
       <img
         class="absolute left-1/2 top-1/2 z-10 h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2 rounded-full"
-        src="/avatar.png"
+        src="/avatar.webp"
         alt=""
       />
     </figure>
