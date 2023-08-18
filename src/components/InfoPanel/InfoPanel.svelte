@@ -5,14 +5,14 @@
 </script>
 
 <div
-  class="top-4 flex w-full flex-col gap-8 rounded-2xl bg-slate-(lighten)-slate-900 p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
+  class="top-4 flex w-full flex-col gap-12 rounded-2xl bg-slate-(lighten)-slate-900 p-4 md:sticky md:top-6 md:h-[calc(100vh-48px)] md:max-w-xs md:p-6"
 >
   <div class="flex w-full items-center gap-2">
     <figure class="relative h-12 w-12 overflow-hidden">
-      <img class="absolute top-0 z-0 h-full w-full" src="/avatar_alpha.svg" alt="" />
+      <img class="absolute top-0 z-0 h-full w-full rounded-full" src="/avatar_alpha.png" alt="" />
       <img
-        class="absolute left-1/2 top-1/2 z-10 h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2"
-        src="/avatar.svg"
+        class="absolute left-1/2 top-1/2 z-10 h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+        src="/avatar.png"
         alt=""
       />
     </figure>
@@ -20,7 +20,7 @@
   </div>
 
   <article class="flex flex-col gap-4 md:h-full">
-    <h2 class="font-syne text-4xl font-semibold leading-10 -tracking-[0.1%] text-base-white">
+    <h2 class="font-syne text-5xl font-semibold -tracking-[0.1%] text-base-white">
       Digital Product Designer
     </h2>
 
