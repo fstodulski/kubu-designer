@@ -8,6 +8,8 @@ export const enum AspectRatio {
 type Image = {
   src: string;
   alt: string;
+  width?: number;
+  height?: number;
   aspectRatio?: AspectRatio;
 };
 

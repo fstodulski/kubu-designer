@@ -12,6 +12,8 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/mobile_upload_videos.webp',
       alt: 'Upload video Mobile UI dribbble shot',
+      width: 1200,
+      height: 1200,
       aspectRatio: AspectRatio['aspect-ratio-1/1']
     }
   },
@@ -54,5 +56,4 @@ export const PROJECTS: Array<PortfolioItem> = [
       aspectRatio: AspectRatio['aspect-ratio-16/9']
     }
   }
-  
 ];
