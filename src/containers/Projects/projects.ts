@@ -6,52 +6,53 @@ export const PROJECTS: Array<PortfolioItem> = [
     title: 'Upload video',
     type: 'Mobile UI',
     href: {
-      ariaLabel: 'Upload video',
-      url: 'https://www.fig'
+      ariaLabel: 'Upload video Mobile UI dribbble shot',
+      url: 'https://dribbble.com/shots/22151990-Atlas-Video-uploading'
     },
     image: {
-      src: '/assets/upload_video.webp',
-      alt: 'Upload video',
+      src: '/assets/mobile_upload_videos.webp',
+      alt: 'Upload video Mobile UI dribbble shot',
       aspectRatio: AspectRatio['aspect-ratio-1/1']
-    }
-  },
-  {
-    title: 'Joystream Design System',
-    type: 'Case study',
-    href: {
-      ariaLabel: 'Upload video',
-      url: 'https://www.fig'
-    },
-    image: {
-      src: '/assets/joy_stream_design_system.webp',
-      alt: 'Upload video',
-      aspectRatio: AspectRatio['aspect-ratio-16/9']
-    }
-  },
-  {
-    title: 'Food App',
-    type: 'Mobile UI Concept',
-    href: {
-      ariaLabel: 'Upload video',
-      url: 'https://www.fig'
-    },
-    image: {
-      src: '/assets/food_app.webp',
-      alt: 'Upload video',
-      aspectRatio: AspectRatio['aspect-ratio-3/4']
     }
   },
   {
     title: 'Video platform DAO',
     type: 'Case study',
     href: {
-      ariaLabel: 'Upload video',
-      url: 'https://www.fig'
+      ariaLabel: 'Video platform DAO case study',
+      url: 'https://www.behance.net/gallery/137431151/Joystream-Video-Platform-DAO'
     },
     image: {
-      src: '/assets/video_platform_dao.webp',
-      alt: 'Upload video',
+      src: '/assets/video_platform_dao.png',
+      alt: 'Video platform DAO case study',
       aspectRatio: AspectRatio['aspect-ratio-4/3']
     }
+  },
+  {
+    title: 'Food delivery',
+    type: 'Mobile UI Concept',
+    href: {
+      ariaLabel: 'Food app concept mobile UI dribbble shot',
+      url: 'https://dribbble.com/shots/15386157-Food-app-concept'
+    },
+    image: {
+      src: '/assets/food_app.webp',
+      alt: 'Food app concept mobile UI dribbble shot',
+      aspectRatio: AspectRatio['aspect-ratio-3/4']
+    }
+  },
+  {
+    title: 'Joystream Design System',
+    type: 'Case study',
+    href: {
+      ariaLabel: 'Joystream Design System case study',
+      url: 'https://www.behance.net/gallery/166030317/Joystream-Design-System'
+    },
+    image: {
+      src: '/assets/atlas_ds.webp',
+      alt: 'Joystream Design System case study',
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
+    }
   }
+  
 ];

@@ -10,8 +10,8 @@
   target="_blank"
   referrerpolicy="no-referrer"
 >
-  <div class=" flex w-full flex-col gap-2">
-    <figure class="w-full overflow-hidden rounded-xl">
+  <div class="flex w-full flex-col gap-2">
+    <figure class="w-full overflow-hidden rounded-xl border border-slate-(lighten)-slate-800">
       <img class="aspect-auto w-full" src={data.image.src} alt={data.image.alt} />
     </figure>
 
