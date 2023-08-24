@@ -15,7 +15,7 @@
       <img
         class="aspect-auto w-full"
         width={data.image.width}
-        height={data.image.width}
+        height={data.image.height}
         src={data.image.src}
         alt={data.image.alt}
       />
