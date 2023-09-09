@@ -38,7 +38,7 @@
 
     <div class="mt-auto flex flex-col gap-4">
       <a
-        href="/assets/cv/kuba_mikolajczyk.pdf"
+        href="/assets/CV_kubamikolajczyk.pdf"
         target="_blank"
         referrerpolicy="no-referrer"
         class="btn secondary">Download CV</a
