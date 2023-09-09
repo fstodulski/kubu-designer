@@ -3,6 +3,21 @@ import { AspectRatio } from './components/PortfolioItem/portfolio-item.model';
 
 export const PROJECTS: Array<PortfolioItem> = [
   {
+    title: 'Joystream Design System',
+    type: 'Case study',
+    href: {
+      ariaLabel: 'Joystream Design System case study',
+      url: 'https://www.behance.net/gallery/166030317/Joystream-Design-System'
+    },
+    image: {
+      src: '/assets/atlas_ds.webp',
+      alt: 'Joystream Design System case study',
+      width: 1400,
+      height: 2240,
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
+    }
+  },
+  {
     title: 'Upload video',
     type: 'Mobile UI',
     href: {
@@ -15,6 +30,21 @@ export const PROJECTS: Array<PortfolioItem> = [
       width: 1200,
       height: 1200,
       aspectRatio: AspectRatio['aspect-ratio-1/1']
+    }
+  },
+  {
+    title: 'Notifications system',
+    type: 'UI / UX Design',
+    href: {
+      ariaLabel: 'Notification widget component',
+      url: 'https://www.behance.net/gallery/166030317/Joystream-Design-System'
+    },
+    image: {
+      src: '/assets/Notifications.webp',
+      alt: 'Notifications system',
+      width: 2560,
+      height: 2936,
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
     }
   },
   {
@@ -47,19 +77,5 @@ export const PROJECTS: Array<PortfolioItem> = [
       aspectRatio: AspectRatio['aspect-ratio-3/4']
     }
   },
-  {
-    title: 'Joystream Design System',
-    type: 'Case study',
-    href: {
-      ariaLabel: 'Joystream Design System case study',
-      url: 'https://www.behance.net/gallery/166030317/Joystream-Design-System'
-    },
-    image: {
-      src: '/assets/atlas_ds.webp',
-      alt: 'Joystream Design System case study',
-      width: 1400,
-      height: 2240,
-      aspectRatio: AspectRatio['aspect-ratio-16/9']
-    }
-  }
+  
 ];
