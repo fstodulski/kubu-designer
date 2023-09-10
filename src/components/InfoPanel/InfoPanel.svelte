@@ -26,7 +26,7 @@
 
     <p class="font-inter text-base font-light text-default">
       Product designer @ Netguru. Focused on creating user-centered and user-friendly digital
-      products that people love to use. I have 3+ years of experience in creating and maintaining
+      products that people love to use. I have 4+ years of experience in creating and maintaining
       design systems & digital experiences.
     </p>
 

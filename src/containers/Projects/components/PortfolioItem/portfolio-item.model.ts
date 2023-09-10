@@ -14,7 +14,7 @@ type Image = {
 };
 
 export type PortfolioItem = {
-  href: {
+  href?: {
     ariaLabel: string;
     url: string;
   };

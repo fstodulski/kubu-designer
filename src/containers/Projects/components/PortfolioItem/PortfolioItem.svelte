@@ -5,8 +5,8 @@
 </script>
 
 <a
-  href={data.href.url}
-  aria-label={data.href.ariaLabel}
+  href={data?.href?.url}
+  aria-label={data?.href?.ariaLabel}
   target="_blank"
   referrerpolicy="no-referrer"
 >

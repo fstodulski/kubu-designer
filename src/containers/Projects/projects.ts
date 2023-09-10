@@ -12,9 +12,57 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/atlas_ds.webp',
       alt: 'Joystream Design System case study',
-      width: 1400,
-      height: 2240,
+      width: 4200,
+      height: 3084,
       aspectRatio: AspectRatio['aspect-ratio-16/9']
+    }
+  },
+  {
+    title: 'Notifications system',
+    type: 'UI / UX Design',
+    image: {
+      src: '/assets/Notifications.webp',
+      alt: 'Notifications system',
+      width: 2583,
+      height: 2193,
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
+    }
+  },
+  {
+    title: 'Video platform DAO',
+    type: 'Case study',
+    href: {
+      ariaLabel: 'Video platform DAO case study',
+      url: 'https://www.behance.net/gallery/137431151/Joystream-Video-Platform-DAO'
+    },
+    image: {
+      src: '/assets/video_platform_dao.webp',
+      alt: 'Video platform DAO case study',
+      width: 4800,
+      height: 3600,
+      aspectRatio: AspectRatio['aspect-ratio-4/3']
+    }
+  },
+  {
+    title: 'Creator tokens components',
+    type: 'UI components',
+    image: {
+      src: '/assets/crt_components.webp',
+      alt: 'Notifications system',
+      width: 4800,
+      height: 3600,
+      aspectRatio: AspectRatio['aspect-ratio-16/9']
+    }
+  },
+  {
+    title: 'AI Browse movies',
+    type: 'Mobile UI',
+    image: {
+      src: '/assets/moviemate_browse.webp',
+      alt: 'Browsing movies on AI',
+      width: 3840,
+      height: 3840,
+      aspectRatio: AspectRatio['aspect-ratio-1/1']
     }
   },
   {
@@ -33,32 +81,13 @@ export const PROJECTS: Array<PortfolioItem> = [
     }
   },
   {
-    title: 'Notifications system',
-    type: 'UI / UX Design',
-    href: {
-      ariaLabel: 'Notification widget component',
-      url: 'https://www.behance.net/gallery/166030317/Joystream-Design-System'
-    },
+    title: 'Single movie',
+    type: 'Mobile UI',
     image: {
-      src: '/assets/Notifications.webp',
-      alt: 'Notifications system',
-      width: 2560,
-      height: 2936,
-      aspectRatio: AspectRatio['aspect-ratio-16/9']
-    }
-  },
-  {
-    title: 'Video platform DAO',
-    type: 'Case study',
-    href: {
-      ariaLabel: 'Video platform DAO case study',
-      url: 'https://www.behance.net/gallery/137431151/Joystream-Video-Platform-DAO'
-    },
-    image: {
-      src: '/assets/video_platform_dao.webp',
+      src: '/assets/single_movie.webp',
       alt: 'Video platform DAO case study',
-      width: 1600,
-      height: 1200,
+      width: 4455,
+      height: 4209,
       aspectRatio: AspectRatio['aspect-ratio-4/3']
     }
   },
@@ -72,10 +101,9 @@ export const PROJECTS: Array<PortfolioItem> = [
     image: {
       src: '/assets/food_app.webp',
       alt: 'Food app concept mobile UI dribbble shot',
-      width: 1600,
-      height: 1200,
+      width: 4800,
+      height: 3600,
       aspectRatio: AspectRatio['aspect-ratio-3/4']
     }
-  },
-  
+  }
 ];
