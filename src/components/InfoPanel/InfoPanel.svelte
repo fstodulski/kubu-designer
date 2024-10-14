@@ -9,10 +9,10 @@
 >
   <div class="flex w-full items-center gap-2">
     <figure class="relative h-12 w-12 overflow-hidden">
-      <img class="absolute top-0 z-0 h-full w-full rounded-full" src="/avatar_alpha.webp" alt="" />
+      <img class="absolute top-0 z-0 h-full w-full rounded-full" src="https://d1x4wey98iud3r.cloudfront.net/kubu/avatar_alpha.webp" alt="" />
       <img
         class="absolute left-1/2 top-1/2 z-10 h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2 rounded-full"
-        src="/avatar.webp"
+        src="https://d1x4wey98iud3r.cloudfront.net/kubu/avatar.webp"
         alt=""
       />
     </figure>
@@ -38,7 +38,7 @@
 
     <div class="mt-auto flex flex-col gap-4">
       <a
-        href="https://storage.cloud.google.com/kubudesigner/CV_kubamikolajczyk.pdf"
+        href="https://d1x4wey98iud3r.cloudfront.net/kubu/CV_kubamikolajczyk.pdf"
         target="_blank"
         referrerpolicy="no-referrer"
         class="btn secondary">Download CV</a
